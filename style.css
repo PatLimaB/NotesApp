@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d3c4aa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#notesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+}
+
+.note {
+    background-color: #efe8d1;
+    border: 1px solid #a18860;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #8d6e4b;
+    border-radius: 4px;
+    resize: none;
+}
+
+button {
+    background-color: #4E342E;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px;
+}
+
+button.deleteButton {
+    background-color: #6D4C41;
+}
+
+button.saveButton {
+    background-color: #2E7D32;
+}
